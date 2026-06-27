@@ -2,12 +2,9 @@ package ui;
 
 
 import base.BaseTest;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.AdminLoginPage;
-import utilities.DriverManager;
+import pages.admin.AdminLoginPage;
 
 public class AdminLoginTest extends BaseTest {
 

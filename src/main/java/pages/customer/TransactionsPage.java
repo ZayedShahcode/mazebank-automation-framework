@@ -1,10 +1,7 @@
-package pages;
+package pages.customer;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
+import pages.BasePage;
 
 public class TransactionsPage extends BasePage {
 
@@ -32,11 +29,8 @@ public class TransactionsPage extends BasePage {
     private By transferBtn = By.xpath("//button[@data-qa='transfer-btn']");
 
     public void depositMoney(String amount){
-        WebElement depositField = driver.findElement(depositInput);
-        depositField.clear();
-        depositField.sendKeys(amount);
-
-        driver.findElement(depositBtn).click();
+        type(driver,depositInput,amount);
+        click(driver,depositBtn);
     }
 
     public void withdrawMoney(String amount){
@@ -53,7 +47,7 @@ public class TransactionsPage extends BasePage {
     }
 
     public void waitForAccountNumber(){
-        webWait(driver).until(ExpectedConditions.visibilityOfElementLocated(accountsInfo));
+        waitForVisibility(driver,accountsInfo);
     }
 
     public void enterAccountNumber(String accountNumber){
@@ -69,10 +63,7 @@ public class TransactionsPage extends BasePage {
     }
 
     public String handleAlert(){
-        Alert al = webWait(driver).until(ExpectedConditions.alertIsPresent());
-        String text = al.getText();
-        al.accept();
-        return text;
+        return super.handleAlerts(driver);
     }
 
 }

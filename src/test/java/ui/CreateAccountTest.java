@@ -6,11 +6,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.AccountsPage;
-import pages.DashboardPage;
-
-
-import java.time.Duration;
+import pages.customer.AccountsPage;
+import pages.customer.DashboardPage;
 
 public class CreateAccountTest extends BaseTest {
 
@@ -21,7 +18,7 @@ public class CreateAccountTest extends BaseTest {
 
     @Test(priority = 1)
     public void navigateToAccountsPage(){
-        dashboardPage = hp.navigateToDashboardViaSignUp("never0008@gmail.com","8000000008");
+        dashboardPage = hp.navigateToDashboardViaLogin("never0008@gmail.com","Password@123");
         accountsPage = dashboardPage.navigateToAccounts();
 
         Assert.assertEquals(getDriver().getCurrentUrl(),"https://maze-bank-cts.vercel.app/accounts");

@@ -1,13 +1,9 @@
-package pages;
+package pages.customer;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
+import pages.admin.AdminLoginPage;
+import pages.BasePage;
 
 public class LoginPage extends BasePage {
 
@@ -38,31 +34,35 @@ public class LoginPage extends BasePage {
         click(driver,loginBtnXpath);
     }
 
-    public void login(String email, String password){
+    public DashboardPage login(String email, String password){
         enterEmail( email);
         enterPassword(password);
         clickLoginBtn();
+        handleAlerts(driver);
+        waitForUrlContains(driver,"dashboard");
+        return new DashboardPage(driver);
+    }
 
+    public String loginWithInvalidDetails(String email,String password){
+        enterEmail( email);
+        enterPassword(password);
+        clickLoginBtn();
+        return handleAlerts(driver);
     }
 
 
 
     public boolean isLoggedIn(){
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h2")));
+        waitForVisibility(driver,By.cssSelector("h2"));
         return driver.findElement(By.xpath("//h2[contains(text(),'Welcome')]")).isDisplayed();
     }
 
-    public void handleAlert(){
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(30));
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        alert.accept();
-    }
 
     public AdminLoginPage navigateToAdminLoginPage(){
-        driver.findElement(adminLoginBtn).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.urlContains("admin-login"));
+        click(driver,adminLoginBtn);
+        waitForUrlContains(driver,"admin-login");
         return new AdminLoginPage(driver);
     }
+
+    public void handleAlert(){super.handleAlerts(driver);};
 }

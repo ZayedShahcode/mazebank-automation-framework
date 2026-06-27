@@ -8,7 +8,11 @@ import io.cucumber.testng.CucumberOptions;
         glue = {
                 "stepdefs"
         },
-        plugin = {"pretty"},
+        plugin = {"pretty",
+                "html:target/cucumber-reports/report.html",
+                "json:target/cucumber-reports/report.json",
+                "junit:target/cucumber-reports/report.xml"
+        },
         monochrome = true
 )
 public class TestRunners extends AbstractTestNGCucumberTests {

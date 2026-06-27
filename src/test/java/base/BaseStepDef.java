@@ -11,6 +11,7 @@ import utilities.DriverManager;
 import org.apache.logging.log4j.Logger;
 
 
+import java.sql.Driver;
 import java.time.Duration;
 
 import static utilities.DriverManager.getDriver;
@@ -18,8 +19,7 @@ import static utilities.DriverManager.getDriver;
 public class BaseStepDef {
     public HomePage homePage;
     public Logger logger;
-    public WebDriver driver;
-    public String baseUrl ="https://maze-bank-cts.vercel.app/";
+    public String baseUrl =Config.getBaseUrl();
 
     public BaseStepDef(){
 
@@ -36,6 +36,10 @@ public class BaseStepDef {
         logger = LogManager.getLogger(this.getClass());
 
         homePage = new HomePage(getDriver());
+    }
+
+    public WebDriver getDriver(){
+        return DriverManager.getDriver();
     }
 
 

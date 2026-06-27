@@ -6,10 +6,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.DashboardPage;
-import pages.TransactionsPage;
-
-import java.time.Duration;
+import pages.customer.DashboardPage;
+import pages.customer.TransactionsPage;
 
 public class WithdrawMoneyTest extends BaseTest {
     DashboardPage dashboardPage;

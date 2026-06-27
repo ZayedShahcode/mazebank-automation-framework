@@ -9,9 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import org.testng.annotations.Test;
-import pages.SignUpPage;
-
-import java.time.Duration;
+import pages.customer.SignUpPage;
 
 public class SignUpPageTest extends BaseTest {
 
@@ -28,7 +26,6 @@ public class SignUpPageTest extends BaseTest {
 
     @Test(priority = 2,dependsOnMethods = "isSignUpPageVisible")
     public void signUpWithValidDetails(){
-
         signup.signUp("ValidUser","never000974@gmail.com","7900000004","cognizant","Password@123");
         WebDriverWait wait = webWait();
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
@@ -43,16 +40,10 @@ public class SignUpPageTest extends BaseTest {
 
     @Test(priority = 3)
     public void signUpWithExistingEmail(){
-        hp.navigateToRegisterPage();
-        signup.signUp("ValidUser","never@gmail.com","8081179997","cognizant","Password@123");
-        WebDriverWait wait = webWait();
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        String alertText = alert.getText();
+        signup=hp.navigateToRegisterPage();
+        String text = signup.signUpWithExistingDetails("ValidUser","never@gmail.com","8081179997","cognizant","Password@123");
 
-        alert.accept();
-
-        Assert.assertTrue(alertText.contains("already"));
-
+        Assert.assertTrue(text.contains("already"));
 
     }
 

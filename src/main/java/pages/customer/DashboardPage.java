@@ -1,13 +1,10 @@
-package pages;
+package pages.customer;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.BasePage;
 
-import java.time.Duration;
-
-public class DashboardPage {
+public class DashboardPage extends BasePage {
     public WebDriver driver;
 
     public DashboardPage(WebDriver driver){
@@ -19,16 +16,14 @@ public class DashboardPage {
     private By accountsInfo = By.xpath("//div[@class='account-info']");
 
     public AccountsPage navigateToAccounts(){
-        driver.findElement(accountBtn).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.urlContains("accounts"));
+        click(driver,accountBtn);
+        waitForUrlContains(driver,"accounts");
         return new AccountsPage(driver);
     }
 
     public TransactionsPage navigateToTransactions(){
-        driver.findElement(transactionsBtn).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(accountsInfo));
+        click(driver,transactionsBtn);
+        waitForVisibility(driver,accountsInfo);
         return new TransactionsPage(driver);
     }
 }

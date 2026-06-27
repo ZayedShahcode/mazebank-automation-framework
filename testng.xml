@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="TestCases">
+<suite name="TestCases" parallel="tests">
     <listeners>
         <listener class-name="listeners.TestListeners"/>
     </listeners>
@@ -14,7 +14,13 @@
        </classes>
     </test>
 
-    <test name="ApiTestCases">
+    <test name="CucumberTests">
+        <classes>
+            <class name="runners.TestRunners" />
+        </classes>
+    </test>
+
+    <test name="ApiTestCases" parallel="classes">
         <classes>
             <class name="api.AccountsApiTest" />
             <class name="api.DashboardApiTest" />
@@ -22,4 +28,6 @@
             <class name="api.LoginApiTest" />
         </classes>
     </test>
+
+
 </suite>

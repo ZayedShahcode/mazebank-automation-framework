@@ -6,8 +6,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
-import pages.DashboardPage;
-import pages.TransactionsPage;
+import pages.customer.DashboardPage;
+import pages.customer.TransactionsPage;
 
 public class TransferStepDef extends BaseStepDef {
 
@@ -51,9 +51,15 @@ public class TransferStepDef extends BaseStepDef {
     }
 
     @Then("user gets success alert")
-    public void handleAlert(){
+    public void handleSuccessAlert(){
         String text = transactionsPage.handleAlert();
         Assert.assertEquals(text,"Transfer successful!");
+    }
+
+    @Then("user gets failure alert")
+    public void userGetsFailureAlert(){
+        String text = transactionsPage.handleAlert();
+        Assert.assertEquals(text,"Destination account is deactivated");
     }
 
     @After

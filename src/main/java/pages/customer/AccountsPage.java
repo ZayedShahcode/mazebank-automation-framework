@@ -1,10 +1,10 @@
-package pages;
+package pages.customer;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import pages.BasePage;
 
-public class AccountsPage {
+public class AccountsPage extends BasePage {
 
     public WebDriver driver;
 
@@ -18,15 +18,10 @@ public class AccountsPage {
     private By createButton = By.xpath("//button/child::span[text()=' Create Savings Account ']/parent::button");
 
     public void createAccount(String aadharNumber, String panNumber) {
-        WebElement aadhar = driver.findElement(aadharInput);
-        aadhar.clear();
-        aadhar.sendKeys(aadharNumber);
 
-        WebElement pan = driver.findElement(panInput);
-        pan.clear();
-        pan.sendKeys(panNumber);
-
-        driver.findElement(createButton).click();
+        type(driver,aadharInput,aadharNumber);
+        type(driver,panInput,panNumber);
+        click(driver,createButton);
 
 
     }
