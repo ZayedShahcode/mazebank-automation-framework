@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
     public WebDriver driver;
 
@@ -25,28 +25,23 @@ public class LoginPage {
 
     private By adminLoginBtn = By.xpath("//a[@routerlink='/admin-login']");
 
-    public void enterEmail(WebDriver driver,String email){
-        WebElement emailIn = driver.findElement(emailInput);
-        emailIn.clear();
-        emailIn.sendKeys(email);
+    public void enterEmail(String email){
+        type(driver,emailInput,email);
     }
 
-    public void enterPassword(WebDriver driver,String password){
-        WebElement passwordIn = driver.findElement(passwordInput);
-        passwordIn.clear();
-        passwordIn.sendKeys(password);
+    public void enterPassword(String password){
+        type(driver,passwordInput,password);
     }
 
-    public void clickLoginBtn(WebDriver driver){
-        driver.findElement(loginBtnXpath).click();
+    public void clickLoginBtn(){
+
+        click(driver,loginBtnXpath);
     }
-
-
 
     public void login(String email, String password){
-        enterEmail(driver, email);
-        enterPassword(driver,password);
-        clickLoginBtn(driver);
+        enterEmail( email);
+        enterPassword(password);
+        clickLoginBtn();
 
     }
 

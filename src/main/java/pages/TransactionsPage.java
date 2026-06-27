@@ -1,9 +1,6 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -29,6 +26,11 @@ public class TransactionsPage extends BasePage {
     private By withdrawInput = By.xpath("//input[@data-qa='withdraw-input']");
     private By withdrawBtn = By.xpath("//button[@data-qa='withdraw-btn']");
 
+    private By transferNavBtn = By.xpath("//*[contains(text(),'Transfer') and @class='mdc-tab__text-label']");
+    private By transferAccountInput = By.xpath("//input[@data-qa='transfer-to-input']");
+    private By transferAmountInput = By.xpath("//input[@data-qa='transfer-amt-input']");
+    private By transferBtn = By.xpath("//button[@data-qa='transfer-btn']");
+
     public void depositMoney(String amount){
         WebElement depositField = driver.findElement(depositInput);
         depositField.clear();
@@ -39,10 +41,38 @@ public class TransactionsPage extends BasePage {
 
     public void withdrawMoney(String amount){
 
-        driver.findElement(withdrawNavBtn).click();
+        click(driver,withdrawNavBtn);
         type(driver,withdrawInput,amount);
 
         click(driver,withdrawBtn);
 
     }
+
+    public void moveToTransferTab(){
+        click(driver,transferNavBtn);
+    }
+
+    public void waitForAccountNumber(){
+        webWait(driver).until(ExpectedConditions.visibilityOfElementLocated(accountsInfo));
+    }
+
+    public void enterAccountNumber(String accountNumber){
+        type(driver,transferAccountInput,accountNumber);
+    }
+
+    public void enterAmount(String amount){
+        type(driver,transferAmountInput,amount);
+    }
+
+    public void clickTransfer(){
+        click(driver,transferBtn);
+    }
+
+    public String handleAlert(){
+        Alert al = webWait(driver).until(ExpectedConditions.alertIsPresent());
+        String text = al.getText();
+        al.accept();
+        return text;
+    }
+
 }

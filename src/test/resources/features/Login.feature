@@ -3,7 +3,7 @@ Feature: User Logs into the application
     Given user is on the login page
 
   Scenario Outline: user enters valid credentials
-    When user enters email "lala@gmail.com" and password "Password@123"
+    When user enters email "<email>" and password "<password>"
     And user clicks login button
     Then user handles alert
     And user logs into the dashboard
