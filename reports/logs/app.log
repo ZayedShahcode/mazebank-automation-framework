@@ -1,0 +1,394 @@
+27-06-2026 11:14:35 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 11:15:33 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@16c069df]
+27-06-2026 11:15:33 INFO  AdminLoginTest:16 - Testing Admin Login
+27-06-2026 11:15:59 FATAL TestListeners:55 - Test Failed: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@16c069df]
+27-06-2026 11:16:23 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@39b43d60]
+27-06-2026 11:16:23 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@39b43d60]
+27-06-2026 11:16:23 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@39b43d60]
+27-06-2026 11:16:33 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@1df8b5b8]
+27-06-2026 15:11:47 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:11:54 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@cd1e646]
+27-06-2026 15:11:55 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@19b843ba]
+27-06-2026 15:11:55 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4808bc9b]
+27-06-2026 15:11:55 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:11:55 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@dc9876b]
+27-06-2026 15:11:55 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:11:55 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@cd1e646] Successful
+27-06-2026 15:11:56 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:11:56 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@2663e964] Successful
+27-06-2026 15:11:56 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:11:57 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@dc9876b] Successful
+27-06-2026 15:11:57 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@dc9876b]
+27-06-2026 15:12:00 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@19b843ba]
+27-06-2026 15:12:00 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@19b843ba]
+27-06-2026 15:12:00 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@2663e964] Successful
+27-06-2026 15:12:00 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:12:00 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:12:00 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4808bc9b] Successful
+27-06-2026 15:12:00 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@dc9876b] Successful
+27-06-2026 15:12:00 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@dc9876b]
+27-06-2026 15:12:00 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:12:01 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@102cec62]
+27-06-2026 15:12:03 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:12:04 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:12:04 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@dc9876b] Successful
+27-06-2026 15:12:08 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@102cec62] Successful
+27-06-2026 15:12:08 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@102cec62]
+27-06-2026 15:12:11 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@102cec62] Successful
+27-06-2026 15:12:12 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:12:12 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:12:17 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@6d026701]
+27-06-2026 15:12:18 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@6d026701] Successful
+27-06-2026 15:12:18 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@6d026701]
+27-06-2026 15:12:18 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@6d026701] Successful
+27-06-2026 15:12:18 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@6d026701]
+27-06-2026 15:12:18 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@6d026701] Successful
+27-06-2026 15:12:18 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@1f75a668]
+27-06-2026 15:12:23 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@1f75a668] Successful
+27-06-2026 15:12:23 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@5305c37d]
+27-06-2026 15:12:24 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@5305c37d] Successful
+27-06-2026 15:12:25 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:14:52 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:14:58 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:15:00 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@b86de0d]
+27-06-2026 15:15:00 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@51bf5add]
+27-06-2026 15:15:00 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@19976a65]
+27-06-2026 15:15:00 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4c2bb6e0]
+27-06-2026 15:15:00 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:15:00 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@19976a65] Successful
+27-06-2026 15:15:00 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@27912e3] Successful
+27-06-2026 15:15:00 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:15:01 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:15:02 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@51bf5add] Successful
+27-06-2026 15:15:02 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@51bf5add]
+27-06-2026 15:15:05 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@b86de0d]
+27-06-2026 15:15:05 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@27912e3] Successful
+27-06-2026 15:15:05 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:15:05 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@b86de0d]
+27-06-2026 15:15:05 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@51bf5add] Successful
+27-06-2026 15:15:05 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@51bf5add]
+27-06-2026 15:15:05 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:15:05 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:15:05 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4c2bb6e0] Successful
+27-06-2026 15:15:06 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@77659b30]
+27-06-2026 15:15:08 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:15:08 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:15:08 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@51bf5add] Successful
+27-06-2026 15:15:14 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@77659b30] Successful
+27-06-2026 15:15:14 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@77659b30]
+27-06-2026 15:15:17 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@77659b30] Successful
+27-06-2026 15:15:19 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:15:19 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:15:25 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@1205bd62]
+27-06-2026 15:15:25 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@1205bd62] Successful
+27-06-2026 15:15:25 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@1205bd62]
+27-06-2026 15:15:25 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@1205bd62] Successful
+27-06-2026 15:15:25 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@1205bd62]
+27-06-2026 15:15:25 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@1205bd62] Successful
+27-06-2026 15:15:25 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@490caf5f]
+27-06-2026 15:15:31 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@490caf5f] Successful
+27-06-2026 15:15:31 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@5be82d43]
+27-06-2026 15:15:32 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@5be82d43] Successful
+27-06-2026 15:15:33 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:23:03 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:23:09 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@3e44f2a5]
+27-06-2026 15:23:09 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@7bf3a5d8]
+27-06-2026 15:23:10 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@15a04efb]
+27-06-2026 15:23:10 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@3b5fad2d]
+27-06-2026 15:23:10 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:23:11 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@4f4c4b1a]
+27-06-2026 15:23:11 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@7bf3a5d8] Successful
+27-06-2026 15:23:11 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@7bf3a5d8]
+27-06-2026 15:23:11 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@4f4c4b1a] Successful
+27-06-2026 15:23:12 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@3e44f2a5] Successful
+27-06-2026 15:23:12 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@3e44f2a5]
+27-06-2026 15:23:12 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:23:14 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@7bf3a5d8] Successful
+27-06-2026 15:23:16 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@15a04efb]
+27-06-2026 15:23:16 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:23:16 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@3b5fad2d] Successful
+27-06-2026 15:23:16 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@3e44f2a5] Successful
+27-06-2026 15:23:16 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@7bf3a5d8]
+27-06-2026 15:23:16 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:23:16 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@15a04efb]
+27-06-2026 15:23:17 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@7d94beb9]
+27-06-2026 15:23:17 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@3e44f2a5]
+27-06-2026 15:23:18 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@3e44f2a5]
+27-06-2026 15:23:19 FATAL TestListeners:55 - Test Failed: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@7bf3a5d8]
+27-06-2026 15:23:25 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@7d94beb9] Successful
+27-06-2026 15:23:25 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@7d94beb9]
+27-06-2026 15:23:29 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@7d94beb9] Successful
+27-06-2026 15:23:30 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:23:30 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:23:42 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@1fb19a0]
+27-06-2026 15:23:43 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@1fb19a0] Successful
+27-06-2026 15:23:43 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@1fb19a0]
+27-06-2026 15:23:43 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@1fb19a0] Successful
+27-06-2026 15:23:43 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@1fb19a0]
+27-06-2026 15:23:43 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@1fb19a0] Successful
+27-06-2026 15:23:43 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@5a5338df]
+27-06-2026 15:23:55 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@5a5338df] Successful
+27-06-2026 15:23:55 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@39c11e6c]
+27-06-2026 15:23:57 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@39c11e6c] Successful
+27-06-2026 15:23:57 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:25:00 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:25:08 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@1e66f1f5]
+27-06-2026 15:25:08 FATAL TestListeners:55 - Test Failed: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@45b4c3a9]
+27-06-2026 15:25:08 FATAL TestListeners:55 - Test Failed: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@ed7f8b4]
+27-06-2026 15:25:08 FATAL TestListeners:55 - Test Failed: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@45b4c3a9]
+27-06-2026 15:25:08 FATAL TestListeners:55 - Test Failed: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@7dc0f706]
+27-06-2026 15:25:08 FATAL TestListeners:55 - Test Failed: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@291b4bf5]
+27-06-2026 15:25:08 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@291b4bf5]
+27-06-2026 15:25:10 FATAL TestListeners:55 - Test Failed: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@561b6512]
+27-06-2026 15:27:11 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:27:18 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@77659b30]
+27-06-2026 15:27:18 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@19976a65]
+27-06-2026 15:27:18 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@2ca923bb]
+27-06-2026 15:27:18 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:27:18 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@1890516e]
+27-06-2026 15:27:18 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@189cbd7c]
+27-06-2026 15:27:18 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@1890516e] Successful
+27-06-2026 15:27:20 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@189cbd7c] Successful
+27-06-2026 15:27:20 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@189cbd7c]
+27-06-2026 15:27:20 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:27:20 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@19976a65] Successful
+27-06-2026 15:27:20 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@19976a65]
+27-06-2026 15:27:23 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:27:23 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@2ca923bb] Successful
+27-06-2026 15:27:23 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@77659b30]
+27-06-2026 15:27:23 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@77659b30]
+27-06-2026 15:27:23 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@189cbd7c] Successful
+27-06-2026 15:27:23 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@189cbd7c]
+27-06-2026 15:27:23 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@19976a65] Successful
+27-06-2026 15:27:23 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@19976a65]
+27-06-2026 15:27:23 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:27:24 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@27912e3]
+27-06-2026 15:27:26 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@189cbd7c]
+27-06-2026 15:27:27 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:27:27 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@19976a65] Successful
+27-06-2026 15:27:32 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@27912e3] Successful
+27-06-2026 15:27:32 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@27912e3]
+27-06-2026 15:27:35 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@27912e3] Successful
+27-06-2026 15:27:36 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:27:36 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:27:41 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@6304101a]
+27-06-2026 15:27:41 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@6304101a] Successful
+27-06-2026 15:27:41 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@6304101a]
+27-06-2026 15:27:42 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@6304101a] Successful
+27-06-2026 15:27:42 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@6304101a]
+27-06-2026 15:27:42 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@6304101a] Successful
+27-06-2026 15:27:42 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@2812b107]
+27-06-2026 15:27:47 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@2812b107] Successful
+27-06-2026 15:27:47 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@344561e0]
+27-06-2026 15:27:48 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@344561e0] Successful
+27-06-2026 15:27:48 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:39:24 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:39:30 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:39:31 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@19b843ba]
+27-06-2026 15:39:31 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@cd1e646]
+27-06-2026 15:39:31 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@cd1e646] Successful
+27-06-2026 15:39:31 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@dc9876b]
+27-06-2026 15:39:32 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4808bc9b]
+27-06-2026 15:39:32 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:39:32 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@2663e964] Successful
+27-06-2026 15:39:32 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:39:33 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:39:33 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@dc9876b] Successful
+27-06-2026 15:39:33 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@dc9876b]
+27-06-2026 15:39:36 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@19b843ba]
+27-06-2026 15:39:36 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@19b843ba]
+27-06-2026 15:39:36 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@2663e964] Successful
+27-06-2026 15:39:36 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:39:37 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@dc9876b] Successful
+27-06-2026 15:39:37 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@dc9876b]
+27-06-2026 15:39:37 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:39:37 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:39:37 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4808bc9b] Successful
+27-06-2026 15:39:38 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@102cec62]
+27-06-2026 15:39:40 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@2663e964]
+27-06-2026 15:39:40 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:39:40 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@dc9876b] Successful
+27-06-2026 15:39:46 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@102cec62] Successful
+27-06-2026 15:39:46 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@102cec62]
+27-06-2026 15:39:50 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@102cec62] Successful
+27-06-2026 15:39:50 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:39:50 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:39:56 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@5be49b60]
+27-06-2026 15:39:56 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@5be49b60] Successful
+27-06-2026 15:39:56 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@5be49b60]
+27-06-2026 15:39:56 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@5be49b60] Successful
+27-06-2026 15:39:56 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@5be49b60]
+27-06-2026 15:39:56 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@5be49b60] Successful
+27-06-2026 15:39:56 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@7674b62c]
+27-06-2026 15:40:02 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@7674b62c] Successful
+27-06-2026 15:40:02 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@31c269fd]
+27-06-2026 15:40:04 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@31c269fd] Successful
+27-06-2026 15:40:04 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:43:35 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:43:43 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@34b9f960]
+27-06-2026 15:43:44 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@928763c]
+27-06-2026 15:43:44 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:43:45 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@15a04efb]
+27-06-2026 15:43:45 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:43:46 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@4f4c4b1a]
+27-06-2026 15:43:47 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@7d94beb9]
+27-06-2026 15:43:48 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@4f4c4b1a] Successful
+27-06-2026 15:43:48 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@7d94beb9] Successful
+27-06-2026 15:43:48 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@4f4c4b1a]
+27-06-2026 15:43:48 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@15a04efb] Successful
+27-06-2026 15:43:48 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@15a04efb]
+27-06-2026 15:43:50 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@34b9f960]
+27-06-2026 15:43:50 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@34b9f960]
+27-06-2026 15:43:50 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:43:50 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@928763c] Successful
+27-06-2026 15:43:51 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@4f4c4b1a] Successful
+27-06-2026 15:43:51 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@4f4c4b1a]
+27-06-2026 15:43:51 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@15a04efb] Successful
+27-06-2026 15:43:51 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@15a04efb]
+27-06-2026 15:43:51 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:43:53 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@7bf3a5d8]
+27-06-2026 15:43:54 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:43:54 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@15a04efb] Successful
+27-06-2026 15:43:55 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@4f4c4b1a]
+27-06-2026 15:44:01 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@7bf3a5d8] Successful
+27-06-2026 15:44:01 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@7bf3a5d8]
+27-06-2026 15:44:05 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@7bf3a5d8] Successful
+27-06-2026 15:44:07 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:44:07 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:44:13 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@30bce90b]
+27-06-2026 15:44:13 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@30bce90b] Successful
+27-06-2026 15:44:13 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@30bce90b]
+27-06-2026 15:44:13 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@30bce90b] Successful
+27-06-2026 15:44:13 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@30bce90b]
+27-06-2026 15:44:13 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@30bce90b] Successful
+27-06-2026 15:44:13 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@7e19ebf0]
+27-06-2026 15:44:19 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@7e19ebf0] Successful
+27-06-2026 15:44:19 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@66d23e4a]
+27-06-2026 15:44:20 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@66d23e4a] Successful
+27-06-2026 15:44:20 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:51:54 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:52:00 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@3fce8fd9]
+27-06-2026 15:52:00 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@6ca18a14]
+27-06-2026 15:52:00 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:52:00 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@2f666ebb]
+27-06-2026 15:52:01 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@74f6c5d8]
+27-06-2026 15:52:01 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@48b67364]
+27-06-2026 15:52:01 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@48b67364] Successful
+27-06-2026 15:52:02 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@3fce8fd9] Successful
+27-06-2026 15:52:02 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@3fce8fd9]
+27-06-2026 15:52:02 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@74f6c5d8] Successful
+27-06-2026 15:52:02 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@74f6c5d8]
+27-06-2026 15:52:03 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:52:06 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@74f6c5d8] Successful
+27-06-2026 15:52:06 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@74f6c5d8]
+27-06-2026 15:52:06 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:52:06 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@3fce8fd9] Successful
+27-06-2026 15:52:06 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@3fce8fd9]
+27-06-2026 15:52:07 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@2f666ebb]
+27-06-2026 15:52:07 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:52:07 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@6ca18a14] Successful
+27-06-2026 15:52:07 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@2f666ebb]
+27-06-2026 15:52:07 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@7ba8c737]
+27-06-2026 15:52:09 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:52:09 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@74f6c5d8] Successful
+27-06-2026 15:52:10 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@3fce8fd9]
+27-06-2026 15:52:15 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@7ba8c737] Successful
+27-06-2026 15:52:15 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@7ba8c737]
+27-06-2026 15:52:19 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@7ba8c737] Successful
+27-06-2026 15:52:19 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:52:19 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:52:25 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@5be49b60]
+27-06-2026 15:52:26 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@5be49b60] Successful
+27-06-2026 15:52:26 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@5be49b60]
+27-06-2026 15:52:26 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@5be49b60] Successful
+27-06-2026 15:52:26 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@5be49b60]
+27-06-2026 15:52:26 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@5be49b60] Successful
+27-06-2026 15:52:26 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@7674b62c]
+27-06-2026 15:52:31 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@7674b62c] Successful
+27-06-2026 15:52:31 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@20312893]
+27-06-2026 15:52:33 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@20312893] Successful
+27-06-2026 15:52:33 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:56:02 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:56:09 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@26adfd2d]
+27-06-2026 15:56:09 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@495ee280]
+27-06-2026 15:56:09 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@dc9876b]
+27-06-2026 15:56:09 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:56:09 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@30b6ffe0]
+27-06-2026 15:56:09 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@7b993c65]
+27-06-2026 15:56:10 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@7b993c65] Successful
+27-06-2026 15:56:10 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@495ee280] Successful
+27-06-2026 15:56:10 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@495ee280]
+27-06-2026 15:56:10 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:56:10 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@26adfd2d] Successful
+27-06-2026 15:56:10 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@26adfd2d]
+27-06-2026 15:56:13 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@30b6ffe0]
+27-06-2026 15:56:14 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@495ee280] Successful
+27-06-2026 15:56:14 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@495ee280]
+27-06-2026 15:56:14 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@30b6ffe0]
+27-06-2026 15:56:14 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@26adfd2d] Successful
+27-06-2026 15:56:14 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@26adfd2d]
+27-06-2026 15:56:14 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:56:14 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:56:14 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@dc9876b] Successful
+27-06-2026 15:56:15 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@2205a05d]
+27-06-2026 15:56:17 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:56:17 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@26adfd2d] Successful
+27-06-2026 15:56:17 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@495ee280]
+27-06-2026 15:56:22 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@2205a05d] Successful
+27-06-2026 15:56:22 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@2205a05d]
+27-06-2026 15:56:25 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@2205a05d] Successful
+27-06-2026 15:56:26 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:56:26 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:56:31 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@45d2ade3]
+27-06-2026 15:56:31 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@45d2ade3] Successful
+27-06-2026 15:56:31 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@45d2ade3]
+27-06-2026 15:56:31 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@45d2ade3] Successful
+27-06-2026 15:56:31 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@45d2ade3]
+27-06-2026 15:56:31 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@45d2ade3] Successful
+27-06-2026 15:56:31 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@39d9314d]
+27-06-2026 15:56:37 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@39d9314d] Successful
+27-06-2026 15:56:37 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@781e7326]
+27-06-2026 15:56:38 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@781e7326] Successful
+27-06-2026 15:56:38 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:57:47 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:57:52 INFO  TestListeners:42 - Starting Test: AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4c2bb6e0]
+27-06-2026 15:57:52 INFO  AdminLoginTest:18 - Testing Admin Login
+27-06-2026 15:57:53 INFO  TestListeners:42 - Starting Test: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@b86de0d]
+27-06-2026 15:57:53 INFO  TestListeners:42 - Starting Test: HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@19976a65]
+27-06-2026 15:57:53 INFO  TestListeners:42 - Starting Test: SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:57:53 INFO  TestListeners:42 - Starting Test: LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@51bf5add]
+27-06-2026 15:57:54 INFO  TestListeners:49 - HomePageTest.isHomePageVisible()[pri:1, instance:ui.HomePageTest@19976a65] Successful
+27-06-2026 15:57:55 INFO  AdminLoginTest:20 - Navigating to Admin Login Page
+27-06-2026 15:57:55 INFO  TestListeners:49 - SignUpPageTest.isSignUpPageVisible()[pri:1, instance:ui.SignUpPageTest@27912e3] Successful
+27-06-2026 15:57:55 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:57:55 INFO  TestListeners:49 - LoginPageTest.isLoginPageVisible()[pri:-1, instance:ui.LoginPageTest@51bf5add] Successful
+27-06-2026 15:57:55 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@51bf5add]
+27-06-2026 15:57:58 INFO  TestListeners:49 - SignUpPageTest.signUpWithExistingEmail()[pri:3, instance:ui.SignUpPageTest@27912e3] Successful
+27-06-2026 15:57:58 INFO  TestListeners:42 - Starting Test: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:57:59 INFO  TestListeners:49 - LoginPageTest.loginWithInvalidDetails()[pri:1, instance:ui.LoginPageTest@51bf5add] Successful
+27-06-2026 15:57:59 INFO  TestListeners:42 - Starting Test: LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@51bf5add]
+27-06-2026 15:57:59 INFO  LoginPageTest:32 - Login With Valid Details
+27-06-2026 15:57:59 FATAL TestListeners:55 - Test Failed: CreateAccountTest.navigateToAccountsPage()[pri:1, instance:ui.CreateAccountTest@b86de0d]
+27-06-2026 15:57:59 INFO  TestListeners:42 - Starting Test: CreateAccountTest.createAccountViaSignUp()[pri:2, instance:ui.CreateAccountTest@b86de0d]
+27-06-2026 15:57:59 INFO  AdminLoginTest:23 - Admin Login Successful
+27-06-2026 15:57:59 INFO  TestListeners:49 - AdminLoginTest.adminLogin()[pri:0, instance:ui.AdminLoginTest@4c2bb6e0] Successful
+27-06-2026 15:58:00 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@77659b30]
+27-06-2026 15:58:01 INFO  LoginPageTest:40 - Ending Vaid login
+27-06-2026 15:58:01 INFO  TestListeners:49 - LoginPageTest.loginWithValidDetails()[pri:2, instance:ui.LoginPageTest@51bf5add] Successful
+27-06-2026 15:58:02 FATAL TestListeners:55 - Test Failed: SignUpPageTest.signUpWithValidDetails()[pri:2, instance:ui.SignUpPageTest@27912e3]
+27-06-2026 15:58:07 INFO  TestListeners:49 - DepositMoneyTest.navigateToTransactionsPage()[pri:1, instance:ui.DepositMoneyTest@77659b30] Successful
+27-06-2026 15:58:07 INFO  TestListeners:42 - Starting Test: DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@77659b30]
+27-06-2026 15:58:10 INFO  TestListeners:49 - DepositMoneyTest.depositMoney()[pri:2, instance:ui.DepositMoneyTest@77659b30] Successful
+27-06-2026 15:58:11 INFO  TestListeners:81 - Ending Listener
+27-06-2026 15:58:11 INFO  TestListeners:32 - Starting Logger for Listeners
+27-06-2026 15:58:16 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@1f75a668]
+27-06-2026 15:58:16 INFO  TestListeners:49 - AccountsApiTest.verifyAccountNumber()[pri:0, instance:api.AccountsApiTest@1f75a668] Successful
+27-06-2026 15:58:16 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@1f75a668]
+27-06-2026 15:58:16 INFO  TestListeners:49 - AccountsApiTest.verifyAccountStatus()[pri:0, instance:api.AccountsApiTest@1f75a668] Successful
+27-06-2026 15:58:16 INFO  TestListeners:42 - Starting Test: AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@1f75a668]
+27-06-2026 15:58:16 INFO  TestListeners:49 - AccountsApiTest.verifyAccountType()[pri:0, instance:api.AccountsApiTest@1f75a668] Successful
+27-06-2026 15:58:16 INFO  TestListeners:42 - Starting Test: DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@4b7dc788]
+27-06-2026 15:58:22 INFO  TestListeners:49 - DepositMoneyApiTest.testStatusCode()[pri:0, instance:api.DepositMoneyApiTest@4b7dc788] Successful
+27-06-2026 15:58:22 INFO  TestListeners:42 - Starting Test: LoginApiTest.login()[pri:0, instance:api.LoginApiTest@41382722]
+27-06-2026 15:58:24 INFO  TestListeners:49 - LoginApiTest.login()[pri:0, instance:api.LoginApiTest@41382722] Successful
+27-06-2026 15:58:24 INFO  TestListeners:81 - Ending Listener

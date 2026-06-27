@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestCases">
+    <listeners>
+        <listener class-name="listeners.TestListeners"/>
+    </listeners>
+    <test name="TestCases" parallel="classes" >
+       <classes >
+           <class name="ui.AdminLoginTest" />
+           <class name="ui.CreateAccountTest" />
+           <class name="ui.LoginPageTest" />
+           <class name="ui.DepositMoneyTest" />
+           <class name="ui.HomePageTest" />
+           <class name="ui.SignUpPageTest" />
+       </classes>
+    </test>
+
+    <test name="ApiTestCases">
+        <classes>
+            <class name="api.AccountsApiTest" />
+            <class name="api.DashboardApiTest" />
+            <class name="api.DepositMoneyApiTest" />
+            <class name="api.LoginApiTest" />
+        </classes>
+    </test>
+</suite>
