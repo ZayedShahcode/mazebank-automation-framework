@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="TestCases" parallel="tests">
+<suite name="TestCases"  parallel="tests">
     <listeners>
         <listener class-name="listeners.TestListeners"/>
     </listeners>
-    <test name="TestCases" parallel="classes" >
+    <test name="TestCases" thread-count="10"  parallel="classes" >
        <classes >
            <class name="ui.AdminLoginTest" />
            <class name="ui.CreateAccountTest" />
            <class name="ui.LoginPageTest" />
-<!--           <class name="ui.DepositMoneyTest">-->
-<!--               <methods>-->
-<!--                   <exclude name="depositMoneyIntoDeactivatedAccount"/>-->
-<!--               </methods>-->
-<!--           </class>-->
+           <class name="ui.DepositMoneyTest"/>
            <class name="ui.HomePageTest" />
            <class name="ui.SignUpPageTest" />
            <class name="ui.WithdrawMoneyTest"/>
        </classes>
     </test>
 
-    <test name="deposit">
-        <classes>
-            <class name="ui.DepositMoneyTest"/>
-        </classes>
-    </test>
 
-    <test name="CucumberTests">
+    <test name="CucumberTests" >
         <classes>
             <class name="runners.TestRunners" />
         </classes>
     </test>
 
-    <test name="ApiTestCases" parallel="classes">
+    <test name="ApiTestCases" thread-count="5" parallel="classes">
         <classes>
             <class name="api.AccountsApiTest" />
             <class name="api.DashboardApiTest" />

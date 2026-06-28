@@ -22,7 +22,7 @@ public class DepositMoneyTest extends BaseTest {
 
     }
 
-    @Test(priority = 2,dependsOnMethods = "navigateToTransactionsPage")
+    @Test(priority = 2)
     public void depositMoney(){
 
         String text = transactionsPage.depositMoney("100991");

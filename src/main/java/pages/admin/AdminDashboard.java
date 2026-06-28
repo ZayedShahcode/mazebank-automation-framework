@@ -26,8 +26,8 @@ public class AdminDashboard extends BasePage {
         By accountStatus = By.xpath("//tr[@role='row']/td[text()='"+accountNumber+"']/following-sibling::td[4]/span");
         By statusToggleBtn = By.xpath("//tr[@role='row']/td[text()='"+accountNumber+"']/following-sibling::td/button");
 
-        if(driver.findElement(accountStatus).getText().equals("Active")){
-            click(driver,statusToggleBtn);
+        if(waitForVisibility(driver,accountStatus).getText().equals("Active")){
+            waitForVisibility(driver,statusToggleBtn).click();
             return handleAlerts(driver);
         }
         return "Account already deactivated";
@@ -37,10 +37,11 @@ public class AdminDashboard extends BasePage {
         By accountStatus = By.xpath("//tr[@role='row']/td[text()='"+accountNumber+"']/following-sibling::td[4]/span");
         By statusToggleBtn = By.xpath("//tr[@role='row']/td[text()='"+accountNumber+"']/following-sibling::td/button");
 
-        if(driver.findElement(accountStatus).getText().equals("Inactive")){
-            click(driver,statusToggleBtn);
+        if(waitForVisibility(driver,accountStatus).getText().equals("Inactive")){
+            waitForVisibility(driver,statusToggleBtn).click();
             return handleAlerts(driver);
         }
+
         return "Account is already active";
     }
 

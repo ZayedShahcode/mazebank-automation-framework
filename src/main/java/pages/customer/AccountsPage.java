@@ -1,5 +1,6 @@
 package pages.customer;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import pages.BasePage;
@@ -23,5 +24,15 @@ public class AccountsPage extends BasePage {
         type(driver,panInput,panNumber);
         click(driver,createButton);
         return handleAlerts(driver);
+    }
+
+    public String generatePAN() {
+        Faker faker = new Faker();
+
+        String firstFive = faker.regexify("[A-Z]{5}");
+        String fourDigits = faker.regexify("[0-9]{4}");
+        String lastLetter = faker.regexify("[A-Z]");
+
+        return firstFive + fourDigits + lastLetter;
     }
 }

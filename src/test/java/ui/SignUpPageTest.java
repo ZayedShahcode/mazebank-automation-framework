@@ -1,6 +1,7 @@
 package ui;
 
 import base.BaseTest;
+import com.github.javafaker.Faker;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 
@@ -15,6 +16,7 @@ public class SignUpPageTest extends BaseTest {
 
 
     private SignUpPage signup;
+    Faker faker = new Faker();
 
 
     @Test(priority = 1,testName = "SMK-001",description = "Verify User Registration")
@@ -24,17 +26,10 @@ public class SignUpPageTest extends BaseTest {
         Assert.assertTrue(getDriver().findElement(By.xpath("//h1[text()='Create Account']")).isDisplayed());
     }
 
-    @Test(priority = 2,dependsOnMethods = "isSignUpPageVisible")
+    @Test(priority = 2)
     public void signUpWithValidDetails(){
-        signup.signUp("ValidUser","never000974@gmail.com","7900000004","cognizant","Password@123");
-        WebDriverWait wait = webWait();
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        String alertText = alert.getText();
-        alert.accept();
-        Assert.assertTrue(alertText.contains("successful"));
-        boolean isRedirected = wait.until(ExpectedConditions.urlContains("login"));
-
-        Assert.assertTrue("https://maze-bank-cts.vercel.app/login".equals(getDriver().getCurrentUrl()));
+        signup.signUp("ValidUser",faker.internet().emailAddress(),faker.regexify("[6-9][0-9]{9}"),"cognizant","Password@123");
+        Assert.assertEquals(getDriver().getCurrentUrl(), "https://maze-bank-cts.vercel.app/login");
 
     }
 

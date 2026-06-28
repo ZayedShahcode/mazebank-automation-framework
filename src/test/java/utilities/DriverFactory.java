@@ -26,6 +26,9 @@ public final class DriverFactory {
         ChromeOptions opts = new ChromeOptions();
         if(headless){
             opts.addArguments("--headless=new","--no-sandbox","--disable-dev-shm-usage");
+
+            opts.addArguments("--disable-popup-blocking");
+
         }
         return new ChromeDriver(opts);
     }

@@ -43,6 +43,7 @@ public class DeactivateAccountStepDef extends BaseStepDef {
 
     @Then("account is activated")
     public void verifyIsAccountActivated(){
+
         Assert.assertEquals(text,"Account activated successfully!");
     }
 
