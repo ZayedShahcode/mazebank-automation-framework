@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
     <Properties>
-        <Property name="LOG_DIR">reports/logs</Property>
+        <Property name="LOG_DIR">logs</Property>
     </Properties>
 
     <Appenders>

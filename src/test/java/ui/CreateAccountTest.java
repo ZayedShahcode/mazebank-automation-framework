@@ -26,12 +26,8 @@ public class CreateAccountTest extends BaseTest {
 
     @Test(priority = 2,testName = "SMK-003",dependsOnMethods = "navigateToAccountsPage")
     public void createAccountViaSignUp(){
-        accountsPage.createAccount("900000000004","ZZZZZ0003Z");
+        String text = accountsPage.createAccount("900000000004","ZZZZZ0003Z");
 
-        WebDriverWait wait = webWait();
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        String text = alert.getText();
-        alert.accept();
         Assert.assertTrue(text.contains("Savings Account created successfully!"));
     }
 

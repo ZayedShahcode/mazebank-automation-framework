@@ -28,17 +28,20 @@ public class TransactionsPage extends BasePage {
     private By transferAmountInput = By.xpath("//input[@data-qa='transfer-amt-input']");
     private By transferBtn = By.xpath("//button[@data-qa='transfer-btn']");
 
-    public void depositMoney(String amount){
+    public String depositMoney(String amount){
+        waitForVisibility(driver,accountsInfo);
         type(driver,depositInput,amount);
         click(driver,depositBtn);
+        return handleAlerts(driver);
     }
 
-    public void withdrawMoney(String amount){
+    public String withdrawMoney(String amount){
 
         click(driver,withdrawNavBtn);
+        waitForVisibility(driver,accountsInfo);
         type(driver,withdrawInput,amount);
-
         click(driver,withdrawBtn);
+        return handleAlerts(driver);
 
     }
 

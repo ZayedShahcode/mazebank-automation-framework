@@ -1,6 +1,7 @@
 package stepdefs;
 
 import base.BaseStepDef;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -43,5 +44,10 @@ public class DeactivateAccountStepDef extends BaseStepDef {
     @Then("account is activated")
     public void verifyIsAccountActivated(){
         Assert.assertEquals(text,"Account activated successfully!");
+    }
+
+    @After
+    public void cleanUp(){
+        super.cleanUp();
     }
 }

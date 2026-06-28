@@ -24,13 +24,18 @@ public class DepositMoneyTest extends BaseTest {
 
     @Test(priority = 2,dependsOnMethods = "navigateToTransactionsPage")
     public void depositMoney(){
-        WebDriverWait wait = webWait();
 
-        transactionsPage.depositMoney("1001");
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        String text = alert.getText();
-        alert.accept();
+        String text = transactionsPage.depositMoney("100991");
         Assert.assertTrue(text.contains("Deposit successful!"));
+        hp.logout();
+
     }
 
+    @Test(priority = 3)
+    public void depositMoneyIntoDeactivatedAccount() {
+        dashboardPage = hp.navigateToDashboardViaLogin("vikash431@gmail.com", "Password@123");
+        transactionsPage = dashboardPage.navigateToTransactions();
+        String text = transactionsPage.depositMoney("1000");
+        Assert.assertEquals(text, "Account is deactivated");
+    }
 }

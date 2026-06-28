@@ -20,12 +20,16 @@ public class HomePage extends BasePage {
     private By loginNav = By.xpath("//button[@routerlink='/login']");
     private By adminLoginNav = By.xpath("//button[@routerlink='/admin-login']");
 
+    private By account_icon = By.xpath("//mat-icon[text()='account_circle']");
+    private By logout_btn = By.xpath("//span[text()=' Logout ']");
+
     public SignUpPage navigateToRegisterPage(){
         click(driver,registerNav);
         return new SignUpPage(driver);
     }
 
     public LoginPage navigateToLoginPage(){
+        waitForVisibility(driver,loginNav);
         click(driver,loginNav);
         waitForUrlContains(driver,"login");
         return new LoginPage(driver);
@@ -49,6 +53,12 @@ public class HomePage extends BasePage {
     public DashboardPage navigateToDashboardViaLogin(String email,String password){
         LoginPage loginPage = navigateToLoginPage();
         return loginPage.login(email,password);
+
+    }
+
+    public void logout(){
+        waitForVisibility(driver,account_icon).click();
+        waitForVisibility(driver,logout_btn).click();
 
     }
 

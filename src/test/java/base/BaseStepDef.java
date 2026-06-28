@@ -4,6 +4,8 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.HomePage;
 import utilities.Config;
 import utilities.DriverFactory;
@@ -45,6 +47,14 @@ public class BaseStepDef {
 
     public void cleanUp(){
         DriverManager.quitDriver();
+    }
+
+    public WebDriverWait webWait(){
+        return new WebDriverWait(getDriver(),Duration.ofSeconds(Config.getExplicitWaitTime()));
+    }
+
+    public boolean waitForUrl(String text){
+        return webWait().until(ExpectedConditions.urlToBe(text));
     }
 
 }

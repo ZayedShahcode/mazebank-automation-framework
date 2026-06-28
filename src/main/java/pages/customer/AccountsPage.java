@@ -17,12 +17,11 @@ public class AccountsPage extends BasePage {
 
     private By createButton = By.xpath("//button/child::span[text()=' Create Savings Account ']/parent::button");
 
-    public void createAccount(String aadharNumber, String panNumber) {
+    public String createAccount(String aadharNumber, String panNumber) {
 
         type(driver,aadharInput,aadharNumber);
         type(driver,panInput,panNumber);
         click(driver,createButton);
-
-
+        return handleAlerts(driver);
     }
 }

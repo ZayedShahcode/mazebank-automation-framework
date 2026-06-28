@@ -23,14 +23,18 @@ public class WithdrawMoneyTest extends BaseTest {
 
     @Test(priority = 2)
     public void withdrawMoney(){
-        WebDriverWait wait = webWait();
-
-        transactionsPage.withdrawMoney("1000");
-        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-        String text = alert.getText();
-        alert.accept();
-        System.out.println(text);
+        String text = transactionsPage.withdrawMoney("1000");
         Assert.assertTrue(text.contains("Withdrawal successful!"));
-
+        hp.logout();
     }
+
+    @Test(priority = 3)
+    public void withdrawMoneyFromDeactivatedAccount(){
+        dashboardPage = hp.navigateToDashboardViaLogin("vikash431@gmail.com", "Password@123");
+        transactionsPage = dashboardPage.navigateToTransactions();
+        String text = transactionsPage.withdrawMoney("1000");
+        Assert.assertEquals(text, "Account is deactivated");
+    }
+
+
 }
