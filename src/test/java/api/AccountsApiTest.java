@@ -15,14 +15,16 @@ public class AccountsApiTest {
     AccountsApiService accountsApiService;
 
 
-    Response res;
+
     JsonPath resBody;
+    AccountsResponse[] accountsResponses;
+
 
     @BeforeClass
     public void login(){
         accountsApiService = new AccountsApiService();
-        res = accountsApiService.accounts();
-        AccountsResponse[] accountsResponse = res.as(AccountsResponse[].class);
+        Response res = accountsApiService.accounts();
+        accountsResponses = res.as(AccountsResponse[].class);
         resBody = res.then().extract().jsonPath();
 
 
@@ -30,20 +32,19 @@ public class AccountsApiTest {
 
     @Test
     public void verifyAccountNumber(){
-        String accountNumber = res.jsonPath().getString("[0].accountNumber");
+        String accountNumber = accountsResponses[0].getAccountNumber();
         Assert.assertTrue(accountNumber.contains("MAZE17045978"));
-//        System.out.println(resBody.getList("[0]").size());
     }
 
     @Test
     public void verifyAccountType(){
-        String accountType = resBody.getString("accountType");
+        String accountType = accountsResponses[0].getAccountType();
         Assert.assertTrue(accountType.contains("SAVINGS"));
     }
 
     @Test
     public void verifyAccountStatus(){
-        Assert.assertTrue(resBody.getString("active").contains("true"));
+        Assert.assertTrue(accountsResponses[0].isActive());
     }
 
 

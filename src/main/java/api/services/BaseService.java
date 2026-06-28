@@ -1,6 +1,9 @@
 package api.services;
 
+import api.models.Admin;
+import api.payloads.AdminLoginReqPayload;
 import io.restassured.RestAssured;
+import io.restassured.parsing.Parser;
 import io.restassured.response.Response;
 import api.payloads.LoginRequestPayload;
 import utils.UserManager;
@@ -31,6 +34,22 @@ public class BaseService {
                 .post("/auth/login");
         return res;
     }
+
+    public String generateAdminToken(){
+        return adminLogin().then().extract().path("token");
+    }
+
+    public Response adminLogin(){
+        Response res = given()
+                .header("Content-Type","application/json")
+                .body(new AdminLoginReqPayload("admin","admin123"))
+                .when()
+                .post("auth/admin/login");
+
+        return res;
+    }
+
+
 
 
 }

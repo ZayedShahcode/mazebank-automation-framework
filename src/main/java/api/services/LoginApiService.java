@@ -1,5 +1,6 @@
 package api.services;
 
+import api.models.Admin;
 import io.restassured.path.json.JsonPath;
 import api.payloads.LoginRequestPayload;
 import io.restassured.response.Response;
@@ -22,17 +23,17 @@ public class LoginApiService extends BaseService {
                 .post("/auth/login");
 
         userManager = res.as(UserManager.class);
-//        System.out.println(userManager.getCustomerId());
         JsonPath resJson = res.then().extract().jsonPath();
-
-
         if(res.getStatusCode()==200){
-
             userManager.setToken(resJson.get("token"));
-//            S
         }
 
         return res;
+
+    }
+
+    public Response adminLogin(UserManager userManager){
+        return super.adminLogin();
 
     }
 
